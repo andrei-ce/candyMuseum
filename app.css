@@ -1,0 +1,68 @@
+body {
+  background: #f5d9df;
+  font-family: "Nunito", sans-serif;
+}
+
+/* This class "blip-blop" was created so we do not change all h2 or all p. Only the ones in "Location, Price and Experience" */
+
+.blip-blop h2 {
+  color: #EA1c2c;
+  font-weight: 100;
+  font-size: 2.5 rem;
+}
+
+.blip-blop p {
+  color: #f498b8;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#mainNavbar .nav-link{
+  color: white;
+}
+
+#mainNavbar .nav-link:hover{
+  color: #EA1c2c;
+}
+
+#mainNavbar .navbar-brand{
+  color: #EA1c2c;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+#headingGroup h1 {
+  font-size: 2.8rem;
+  font-weight: 100;
+}
+
+#headingGroup span{
+  color: #ea1c2c;
+}
+
+.navbar.scrolled {
+  background: rgb(222,192,222);
+  transition: background 700ms;
+}
+  /* When background property changes, then make the transition ... */
+
+@media (max-width: 890px) {
+  #headingGroup h1 {
+    font-size: 2rem;
+    font-weight: 100;
+  }
+}
+/* @media (property: value) {
+    anything here will take effect when "property: value" is reached
+  }
+  */
